@@ -1,2 +1,2 @@
 # SinsMod
-SinsMod
+Mod for Terraria
