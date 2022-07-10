@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\..\references\tModLoader.targets" />
+  <PropertyGroup>
+    <AssemblyName>SinsMod</AssemblyName>
+    <TargetFramework>net45</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <Target Name="BuildMod" AfterTargets="Build">
+    <Exec Command="&quot;$(tMLBuildServerPath)&quot; -build $(ProjectDir) -eac $(TargetPath) -define $(DefineConstants) -unsafe $(AllowUnsafeBlocks)" />
+  </Target>
+  <ItemGroup>
+    <Compile Remove="Gores\MiniBoss\**" />
+    <Compile Remove="NPCs\Boss\Asura\**" />
+    <Compile Remove="NPCs\Boss\Eibon\**" />
+    <Compile Remove="NPCs\Boss\Providence\**" />
+    <EmbeddedResource Remove="Gores\MiniBoss\**" />
+    <EmbeddedResource Remove="NPCs\Boss\Asura\**" />
+    <EmbeddedResource Remove="NPCs\Boss\Eibon\**" />
+    <EmbeddedResource Remove="NPCs\Boss\Providence\**" />
+    <None Remove="Gores\MiniBoss\**" />
+    <None Remove="NPCs\Boss\Asura\**" />
+    <None Remove="NPCs\Boss\Eibon\**" />
+    <None Remove="NPCs\Boss\Providence\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="NPCs\TownNPCs\RuneStoneDealer.csUnused" />
+    <None Remove="Projectiles\Melee\ChronosSlash.cs~RF167dd.TMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Bluemagic">
+      <HintPath>..\lib\OtherMods\Bluemagic.dll</HintPath>
+    </Reference>
+    <Reference Include="DBZMOD">
+      <HintPath>..\lib\OtherMods\DBZMOD.dll</HintPath>
+    </Reference>
+    <Reference Include="Laugicality">
+      <HintPath>..\lib\OtherMods\Laugicality.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Extra\Rune\" />
+    <Folder Include="Extra\Item\" />
+    <Folder Include="Achievements\" />
+    <Folder Include="Items\MusicBox\" />
+    <Folder Include="Tiles\MusicBox\" />
+    <Folder Include="Tiles\Furniture\" />
+    <Folder Include="UI\UIElements\" />
+    <Folder Include="WorldGen\" />
+  </ItemGroup>
+</Project>

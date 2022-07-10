@@ -1,0 +1,1 @@
+Color gray hsv -100 150 -100

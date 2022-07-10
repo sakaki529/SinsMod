@@ -1,0 +1,27 @@
+„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª
+-Changelogs-
+„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª
+2020 /
+	V0.0.0.7
+		-Fixed stuck on the "resetting game objects" and just doenst move when making a new world
+-------------------------------------------------------------------------------
+2020 2/29
+	V0.0.0.6
+		-Removed items
+			> All ???, All Cross Bow, All Ballistic Arrow, Asura Armorset, etc
+		-Removed Mystic and distortion meteors
+		-Added the ore that is generated when you defeated Wall of Flesh
+		-Added new mode
+		-Shadowflame and Daybroken debuff applied to players.
+-------------------------------------------------------------------------------
+2020 1/4
+	V0.0.0.5
+		-Added new 3 biomes
+		-Changed ritual texture
+-------------------------------------------------------------------------------
+2019 11/10
+	V0.0.0.3
+		-Supported Boss Highlights
+		-Added new boss
+		-Added items but most items still unavailable
+-------------------------------------------------------------------------------

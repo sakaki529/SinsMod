@@ -1,0 +1,10 @@
+displayName = Sins Mod(Early Access)
+author = Cleyera
+version = 0.0.0.6
+homepage = https://forums.terraria.org/index.php?threads/sins-mod.83681/
+hideCode = true
+hideResources = true
+includeSource = false
+includePDB = false
+buildIgnore = *.apd, *.csproj, *.user, obj\*, bin\*, .vs\*, lib\*
+weakReferences = DBZMOD, Bluemagic, Laugicality, ThoriumMod, CalamityMod, Redemption, CheatSheet, HEROsMod

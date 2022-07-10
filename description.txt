@@ -1,0 +1,42 @@
+===========================================
+[c/7989a2:-Description-]
+===========================================
+This mod is aiming to expand the game by adding items, bosses, etc.
+
+This mod is early access now. So contents are overpowered and unstable.
+In addition, I'm JAP and this mod has many incorrect grammars.
+===========================================
+[c/FE2EF7:-Supporting Mods-]
+===========================================
+-Boss Checklist
+-Census
+===========================================
+[c/ffb600:-Changelogs-]
+===========================================
+v0.0.0.0 to v0.0.0.6: Early Access
+-------------------------------------------
+2020 4/
+V0.0.0.7
+-Fixed stuck on the "resetting game objects" and just doenst move when making a new world
+-------------------------------------------
+2020 2/29
+V0.0.0.6: Early Access
+-Removed items
+> All ???, All Cross Bow, All Ballistic Arrow, Asura Armorset, etc
+-Removed Mystic and distortion meteors
+-Added the ore that is generated when you defeated Wall of Flesh
+-Added new mode
+-Shadowflame and Daybroken debuff applied to players.
+-------------------------------------------
+2020 1/4
+V0.0.0.5: Early Access
+-Added new 3 biomes
+-Changed ritual texture
+-------------------------------------------
+2019 11/10
+V0.0.0.3
+-Supported Boss Highlights
+-Added new boss
+-Added items but most items still unavailable
+===========================================
+[c/7d7d7d:I started modding in Nov 2018]
